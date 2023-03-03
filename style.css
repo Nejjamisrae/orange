@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+}
+.home{
+    color: white;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+.home tr td a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.home tr td a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+hr{
+    color: black;
+    height: 0px;
+}
+.home2{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    position:fixed;
+}
+.home2 tr td a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.home2 tr td a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.home3{
+    color: black;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+.home4{
+    display: flex;
+}
+.home4 #h1{
+    margin-bottom: 250px;
+}
+#diapo{
+    height: 700px;
+    width: 60%;
+    animation-name: pub;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes pub {
+    0%{
+        background:url("img/pub1.png") no-repeat;
+    }
+    25%{
+        background:url("img/pub2.png") no-repeat;
+    }
+    50%{
+        background:url("img/pub3.png") no-repeat;
+    }
+    100%{
+        background:url("img/pub4.png") no-repeat;
+    }
+}
+.home4 tr td a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.home4 tr td a:hover {
+    color: orange;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+.home5{
+    width: 100%;
+}
+.home5 h1{
+    font-size: 30px;
+}
+#a1 a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+
+}
+#a1 a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.home5 #t1 .te #te1{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.home5 #t1 .te #te1:hover{
+    color: orange;
+    text-decoration: underline;
+}
+table{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+
+}
+.home6{
+    width: 100%;
+}
+.tel1 a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.tel1 a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.tel2{
+    background-color: green;
+}
+.tel3{
+    color: orange;
+}
+.home7{
+    width: 100%;
+}
+.f1{
+    justify-content: center;
+}
+#h8{
+    width: 100%;
+}
+.home8 #h8{
+    background-color: black;
+    color: white
+}
+.home8 th{
+    font-size: 30px;
+}
+.home8 #hh8{
+    right: 1000px;
+    top: 100px;
+}
+.home9 {
+    background-color: whitesmoke;
+}
+.home10{
+    background-color: black;
+}
+.home10 th{
+    color: white;
+}
+.home11{
+    background-color: rgb(255, 200, 12);
+    width: 100%;
+    position: sticky;
+
+}
+.home11 a{
+    background-color: rgb(255, 200, 12);
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.home11 a:hover{
+    text-decoration: underline;
+}
